@@ -25,3 +25,12 @@ This project uses under the hood a popular java abstraction library for accessin
 3. Start to send your guess to the chat and enjoy
 
 ![screenshot](https://raw.githubusercontent.com/devatlant/chat-bot-game/master/res/telegram_screenshot.jpg)
+
+### Profil professionnel
+
+**Etudiante en Master 2 du programme de double diplôme**
+**franco-ukrainienne** en partenariat avec l'Université Lyon 2 à la
+recherche d'un stage de fin d'études **_Ingénieur Assurance
+Qualité (tests fonctionnels et/ou automatisés)._**
+
+![](https://media.giphy.com/media/heIX5HfWgEYlW/giphy.gif)
