@@ -45,7 +45,7 @@ class GameTest {
     public void isTextReturnFalse(){
         testSubject = new Game(100);
 
-        boolean result = Game.isInteger("text");
+        boolean result = Game.isInteger("12");
 
         assertFalse(result);
     }
