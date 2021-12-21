@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GameTest {
     private Game testSubject;
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @BeforeEach
     public void setup(){
@@ -30,5 +30,23 @@ class GameTest {
         } catch (IOException e) {
            throw new RuntimeException("wrong json syntax for "+ text,e);
         }
+    }
+
+    @org.junit.jupiter.api.Test
+    public void isIntegerReturnTrue(){
+        testSubject = new Game(100);
+
+        boolean  result = Game.isInteger("100");
+
+        assertTrue(result);
+    }
+
+    @org.junit.jupiter.api.Test
+    public void isTextReturnFalse(){
+        testSubject = new Game(100);
+
+        boolean result = Game.isInteger("text");
+
+        assertFalse(result);
     }
 }
